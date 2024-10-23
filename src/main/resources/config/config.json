@@ -1,14 +1,13 @@
 {
   "devs": [
-    "184439280980983808",
-    "525050052390027269"
+    "627018533523554305"
   ],
-  "devGuild": "0000000000000000000",
-  "logChannel": "0000000000000000000",
-  "reportsChannel": "0000000000000000000",
-  "pingChannel": "0000000000000000000",
-  "spookChannel": "0000000000000000000",
-  "unlimitedBoars": false,
+  "devGuild": "1298401621817950258",
+  "logChannel": "1298429364479983636",
+  "reportsChannel": "1298429485393121281",
+  "pingChannel": "1298429616318582885",
+  "spookChannel": "1298429616318582885",
+  "unlimitedBoars": true,
   "maintenanceMode": false,
   "marketOpen": true,
   "firstBoarID": "bacteria"
