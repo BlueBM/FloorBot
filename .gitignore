@@ -10,3 +10,6 @@
 /resourcepack*
 /deployment
 /config/config.json
+.DS_Store
+*.yml
+Dockerfile
