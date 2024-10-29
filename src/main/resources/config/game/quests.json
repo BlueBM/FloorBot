@@ -230,6 +230,11 @@
         "requirement": "16",
         "rewardType": "transmute",
         "rewardAmt": 1
+      },
+      {
+        "requirement": "24",
+        "rewardType": "transmute",
+        "rewardAmt": 3
       }
     ]
   },

@@ -1,7 +1,7 @@
 {
   "main": {
-    "name": "boar",
-    "description": "Commands to play and interact with BoarBot",
+    "name": "floor",
+    "description": "Commands to play and interact with FloorBot",
     "subcommands": {
       "help": {
         "name": "help",
@@ -18,7 +18,7 @@
                 "value": "general"
               },
               {
-                "name": "Boars",
+                "name": "Floors",
                 "value": "boars"
               },
               {
@@ -40,7 +40,7 @@
       },
       "daily": {
         "name": "daily",
-        "description": "Get your daily boar",
+        "description": "Get your daily floor",
         "location": "dev.boarbot.commands.boar.DailySubcommand",
         "options": [
           {
@@ -70,7 +70,7 @@
       },
       "collection": {
         "name": "collection",
-        "description": "View a user's unique boars",
+        "description": "View a user's unique floors",
         "location": "dev.boarbot.commands.boar.megamenu.CollectionSubcommand",
         "options": [
           {
@@ -87,7 +87,7 @@
       },
       "compendium": {
         "name": "compendium",
-        "description": "View a user's compendium of boars",
+        "description": "View a user's compendium of floors",
         "location": "dev.boarbot.commands.boar.megamenu.CompendiumSubcommand",
         "options": [
           {
@@ -98,7 +98,7 @@
           {
             "name": "search",
             "type": 3,
-            "description": "Search term for a boar"
+            "description": "Search term for a floor"
           }
         ]
       },
@@ -226,7 +226,7 @@
       },
       "market": {
         "name": "market",
-        "description": "Buy and sell boars/items",
+        "description": "Buy and sell floors/items",
         "location": "dev.boarbot.commands.boar.MarketSubcommand",
         "options": [
           {
@@ -238,7 +238,7 @@
       },
       "report": {
         "name": "report",
-        "description": "Report a bug/exploit with BoarBot",
+        "description": "Report a bug/exploit with FloorBot",
         "location": "dev.boarbot.commands.boar.ReportSubcommand"
       },
       "self-wipe": {
@@ -248,7 +248,7 @@
       },
       "gift": {
         "name": "gift",
-        "description": "Send a Boar Gift in the channel you're currently in",
+        "description": "Send a Floor Gift in the channel you're currently in",
         "location": "dev.boarbot.commands.boar.GiftSubcommand"
       },
       "support": {
@@ -272,25 +272,25 @@
     }
   },
   "manage": {
-    "name": "boar-manage",
+    "name": "floor-manage",
     "default_member_permissions": 32,
-    "description": "Commands to manage BoarBot",
+    "description": "Commands to manage FloorBot",
     "subcommands": {
       "setup": {
         "name": "setup",
-        "description": "Set BoarBot up to your liking",
+        "description": "Set FloorBot up to your liking",
         "location": "dev.boarbot.commands.boarmanage.SetupSubcommand"
       }
     }
   },
   "dev": {
-    "name": "boar-dev",
+    "name": "floor-dev",
     "default_member_permissions": 0,
-    "description": "Commands exclusive to developers of BoarBot",
+    "description": "Commands exclusive to developers of FloorBot",
     "subcommands": {
       "give": {
         "name": "give",
-        "description": "Give a user a boar/badge",
+        "description": "Give a user a floor/badge",
         "location": "dev.boarbot.commands.boardev.GiveSubcommand",
         "options": [
           {
@@ -306,7 +306,7 @@
             "required": true,
             "choices": [
               {
-                "name": "Boar",
+                "name": "Floor",
                 "value": 0
               },
               {
@@ -342,7 +342,7 @@
       },
       "ban": {
         "name": "ban",
-        "description": "Ban a user from community BoarBot features",
+        "description": "Ban a user from community FloorBot features",
         "location": "dev.boarbot.commands.boardev.BanSubcommand",
         "options": [
           {
@@ -360,7 +360,7 @@
       },
       "maintenance": {
         "name": "maintenance",
-        "description": "Set BoarBot's maintenance status",
+        "description": "Set FloorBot's maintenance status",
         "location": "dev.boarbot.commands.boardev.MaintenanceSubcommand",
         "options": [
           {
