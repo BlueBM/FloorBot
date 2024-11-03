@@ -7,7 +7,6 @@
 /logs
 /dataSources
 /.ideaDataSources
-/resourcepack*
 /deployment
 /config/config.json
 .DS_Store
