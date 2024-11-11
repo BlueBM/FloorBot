@@ -8,7 +8,7 @@
 /dataSources
 /.ideaDataSources
 /deployment
-/config/config.json
+**/config/config.json
 .DS_Store
 *.yml
 Dockerfile
