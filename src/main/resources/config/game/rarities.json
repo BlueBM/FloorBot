@@ -118,7 +118,8 @@
     "targetStock": 10,
     "priceAdjustWaitHours": 96,
     "boars": [
-      "minimumwage"
+      "minimumwage",
+      "billionaire"
     ]
   },
   "mythic": {
@@ -134,7 +135,8 @@
     "targetStock": 5,
     "priceAdjustWaitHours": 120,
     "boars": [
-      "cowboy"
+      "cowboy",
+      "fairy"
     ]
   },
   "divine": {
@@ -157,7 +159,8 @@
     "name": "Immaculate",
     "emoji": "<:immaculate:1248314115152281660>",
     "weight": 0,
-    "baseBucks": 0,
+    "baseBucks": 5000,
+    "fromDaily": true,
     "researcherNeed": true,
     "givesFirstBoar": true,
     "showEdition": true,
@@ -165,7 +168,8 @@
     "targetStock": 1,
     "priceAdjustWaitHours": 240,
     "boars": [
-      "supernova"
+      "supernova",
+      "creator"
     ]
   },
   "truth": {
@@ -178,7 +182,8 @@
     "givesFirstBoar": true,
     "showEdition": true,
     "boars": [
-      "boargalos"
+      "boargalos",
+      "boarfadius"
     ]
   },
   "special": {

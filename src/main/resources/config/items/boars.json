@@ -66,6 +66,16 @@
       "wage"
     ]
   },
+  "billionaire": {
+    "name": "Boarllionaire",
+    "file": "IceBoar.png",
+    "description": "Touching this boar  is a good idea.",
+    "classification": "a boar",
+    "update": "idk when",
+    "searchTerms": [
+      "rich"
+    ]
+  },
   "cowboy": {
     "name": "Cowboar",
     "file": "CowboyBoar.png",
@@ -74,6 +84,16 @@
     "update": "Alpha",
     "searchTerms": [
       "cowboy"
+    ]
+  },
+  "fairy": {
+    "name": "Fairy Boar",
+    "file": "CowboyBoar.png",
+    "description": "yes png.",
+    "classification": "Highly Talented",
+    "update": "Alpha",
+    "searchTerms": [
+      "fairy"
     ]
   },
   "rickroll": {
@@ -100,6 +120,18 @@
       "nova"
     ]
   },
+  "creator": {
+    "name": "Creator Boar",
+    "pluralName": "Creator Boars",
+    "file": "Suboarnova.png",
+    "description": "Creates boars. Is a pawn. En Passant.",
+    "classification": "Celestial",
+    "update": "v1.0.0",
+    "searchTerms": [
+      "creator",
+      "creat"
+    ]
+  },
   "boargalos": {
     "name": "Boargalos",
     "pluralName": "Boargaloses",
@@ -110,6 +142,18 @@
     "update": "v1.1.22",
     "searchTerms": [
       "galos"
+    ]
+  },
+  "boarfadius": {
+    "name": "Boarfadius",
+    "pluralName": "Boarfadiusies",
+    "file": "Boargalos.gif",
+    "staticFile": "BoargalosSTATIC.png",
+    "description": "An boar",
+    "classification": "Primordial",
+    "update": "v1.1.22",
+    "searchTerms": [
+      "fadius"
     ]
   },
   "bacteria": {
