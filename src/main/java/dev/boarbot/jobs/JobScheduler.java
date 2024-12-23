@@ -27,6 +27,7 @@ public class JobScheduler {
             scheduler.scheduleJob(
                 BlessResetJob.getJob(), Set.of(BlessResetJob.getTrigger1(), BlessResetJob.getTrigger2()), true
             );
+            scheduler.scheduleJob(CleanupJob.getJob(), CleanupJob.getTrigger());
 
             scheduler.scheduleJob(
                 SpookMessageJob.getJob(),
