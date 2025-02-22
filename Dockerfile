@@ -14,7 +14,7 @@ WORKDIR /app
 COPY ./src ./src
 COPY ./pom.xml .
 
-RUN mvn package
+RUN mvn package -X
 
 FROM base AS runtime
 
