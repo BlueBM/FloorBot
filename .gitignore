@@ -12,3 +12,4 @@
 .DS_Store
 *.yml
 Dockerfile
+src/main/resources/config/config.json
